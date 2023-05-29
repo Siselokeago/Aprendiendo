@@ -1,0 +1,156 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background: #BBBBBB;
+    display: flex;
+    justify-content: center;
+    
+}
+.box{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10vw;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+header img{
+    width: 100%;
+   
+}
+.barbox{
+    
+    display: flex;
+    flex-direction: column;
+}
+.barbtext{
+    display: flex;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 2vw;
+    text-decoration: none;
+    
+    align-self: center;
+}
+.nav{ 
+    display: flex; 
+    justify-content: space-between;
+    gap: 20px;
+}
+.menu1 a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+.menu1 a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+main{
+    display: grid;
+    place-items: center;    
+}
+
+.box2{
+    width: 75%;
+}
+
+main img{
+    width: 70%;
+    
+}
+.Seleccion li:hover img{
+    width: 75%;
+}
+
+.Seleccion{ 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 350px));
+    grid-auto-rows: 520px; 
+    padding-top: 50px;
+    place-content: center;  
+}
+
+
+.Seleccion li{  
+    align-self: start;
+    justify-self: center;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px 0;
+   
+    border: 2px solid black;
+    gap: 3em;
+}
+
+
+.Seleccion li p.descrip{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+.Seleccion li:hover{
+    border-color: #c78c19;  
+}
+
+.Seleccion li:active{
+    border-color: green;
+}
+
+.Items-card{
+    display: flex;
+}
+h2{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+.Seleccion li:hover h2{
+    border-color: #c78c19;
+    font-size: 27px;
+}
+
+
+.precio{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 20px 0 0 0;
+}
+.Copyright{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+@media (min-width: 949px) and (max-width: 1414px) {
+    .era{
+        position: relative;
+        left: 50%;
+        margin: 0;
+    }
+    
+    
+}
